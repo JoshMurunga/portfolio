@@ -1,21 +1,16 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Josh's Portfolio",
+  "name": "Josh Murunga's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "56x43 48x38 24x19 12x10",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "mylogo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "437x340"
     }
   ],
   "start_url": ".",
