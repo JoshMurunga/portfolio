@@ -22,7 +22,7 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse navlinks" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item px-2">
-              <NavLink className="nav-link" to="/">
+              <NavLink className="nav-link" to="/home">
                 <b>HOME</b>
               </NavLink>
             </li>
