@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <main className="container">
+        <main>
           <Switch>
             <Route path="/home" component={Home} />
             <Route path="/projects" component={Projects} />

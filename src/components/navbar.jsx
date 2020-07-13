@@ -4,8 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
-        <Link href="#" className="navbar-brand navcontainer">
+      <nav className="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+        <Link to="/" className="navbar-brand navcontainer">
           <img src="mylogo.png" alt="JM" width="48" height="38" />
         </Link>
         <button

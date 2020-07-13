@@ -40,11 +40,194 @@
 .navcontainer {
   padding-left: 1.4rem;
   padding-right: 1.4rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .navlinks {
   padding-right: 1.4rem;
   margin-right: auto;
+}
+
+.componentStyle {
+  padding-top: 9rem;
+  background-color: #212529;
+  padding-bottom: 13rem;
+}
+
+.resumeStyle {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+  margin-bottom: 5rem;
+}
+
+.cvStyle {
+  width: 892.5px;
+  height: 1310.25px;
+  background-color: #fff;
+}
+
+.cv-intro-info {
+  padding-top: 33px;
+}
+
+.teal-box {
+  top: 4.5px;
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 52.5px;
+  left: 0;
+  background-color: #479099;
+}
+
+.header-sec {
+  padding-bottom: 21px;
+  margin-bottom: 18px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-left: 37.5px;
+  padding-right: 37.5px;
+  border-color: #2dbcad;
+  min-height: 60px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  height: auto;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+.cv-intro {
+  text-align: left;
+  width: 53%;
+  height: 100%;
+  position: relative;
+  padding-left: 21px;
+  float: left;
+}
+
+.cv-intro-details {
+  text-align: right;
+  width: 47%;
+  height: 100%;
+  position: relative;
+  padding-left: 34.5px;
+  float: right;
+  padding-top: 3px;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear-fix {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.cv-intro-header {
+  font-weight: 400;
+  color: #3e787c;
+  font-size: 34.5px !important;
+  min-height: 34.5px;
+  line-height: 36px !important;
+  position: relative;
+  left: -1.5px;
+}
+
+.cv-intro-title {
+  padding-top: 4.5px;
+  font-size: 19.5px !important;
+  color: #2dbcad;
+}
+
+.cv-intro-summary {
+  padding-top: 12px;
+  font-size: 15px !important;
+  color: #000;
+}
+
+.cv-email-container {
+  padding-right: 25.5px;
+}
+
+.cv-email {
+  font-size: 16px !important;
+  top: -1.5px;
+  text-decoration: none;
+  cursor: pointer;
+  clear: both;
+  color: #000;
+}
+
+.mail-icon {
+  color: #3e787c;
+  font-size: 17px !important;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.phone-icon {
+  color: #3e787c;
+  font-size: 16.5px !important;
+  position: absolute;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+.mbox-icon {
+  color: #3e787c;
+  font-size: 16.5px !important;
+  position: absolute;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+.globe-icon {
+  color: #3e787c;
+  font-size: 16.5px !important;
+  position: absolute;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+.linked-icon {
+  color: #3e787c;
+  font-size: 16.5px !important;
+  position: absolute;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+.git-icon {
+  color: #3e787c;
+  font-size: 16.5px !important;
+  position: absolute;
+  right: 0;
+  left: initial;
+  display: block;
+}
+
+.separator {
+  margin-top: 13.5px;
 }
