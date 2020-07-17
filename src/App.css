@@ -231,3 +231,62 @@ a:hover {
 .separator {
   margin-top: 13.5px;
 }
+
+.cv-body-left {
+  width: 50% !important;
+  font-weight: 400;
+  float: left;
+  height: auto;
+  font-family: "Ubuntu";
+  text-rendering: optimizelegibility;
+}
+
+.cv-body-right {
+  width: 50% !important;
+  font-weight: 400;
+  float: right;
+  height: auto;
+  font-family: "Ubuntu";
+  text-rendering: optimizelegibility;
+}
+
+.cv-body-left-header {
+  margin-bottom: 6px;
+  padding-left: 58.5px;
+  padding-right: 27px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 21px;
+}
+
+.teal-body-box {
+  width: 36px;
+  height: 52.5px;
+  background-color: #2dbcad;
+  float: left;
+}
+
+.work-details {
+  float: left;
+  padding-left: 22.5px;
+}
+
+.work-title {
+  font-size: 19.5px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+.work-company {
+  font-size: 19.5px;
+  margin-bottom: 7.5px;
+  text-align: left;
+}
+
+.work-period {
+  color: rgb(45, 188, 173);
+  text-align: left;
+  font-size: 13.5px;
+  font-style: italic;
+}

@@ -81,7 +81,7 @@ class Resume extends Component {
                   </div>
                   <div className="cv-email-container separator">
                     <a
-                      href="http://linkedin.com/in/joshua-murunga-55236a32/"
+                      href="https://linkedin.com/in/joshua-murunga-55236a32/"
                       className="cv-email"
                       target="_blank"
                     >
@@ -93,7 +93,7 @@ class Resume extends Component {
                   </div>
                   <div className="cv-email-container separator">
                     <a
-                      href="http://github.com/JoshMurunga"
+                      href="https://github.com/JoshMurunga"
                       className="cv-email"
                       target="_blank"
                     >
@@ -107,6 +107,17 @@ class Resume extends Component {
                 <div className="clear"></div>
               </div>
             </div>
+            <div className="cv-body-left">
+              <div className="cv-body-left-header">WORK EXPERIENCE</div>
+              <div className="teal-body-box"></div>
+              <div className="work-details">
+                <div className="work-title">HMIS Developer</div>
+                <div className="work-company">Liverpool VCT Health</div>
+                <div className="work-period">September/2019 -</div>
+                <div className="work-period">Achievements/Tasks</div>
+              </div>
+            </div>
+            <div className="cv-body-right"></div>
           </div>
         </center>
       </div>
