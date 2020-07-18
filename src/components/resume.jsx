@@ -115,7 +115,64 @@ class Resume extends Component {
                 <div className="work-company">Liverpool VCT Health</div>
                 <div className="work-period">September/2019 -</div>
                 <div className="work-period">Achievements/Tasks</div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">this is the achievement</div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">this is the achievement 2</div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">this is the achievement 3</div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">this is the achievement 4</div>
               </div>
+              <div className="clear"></div>
+              <div className="teal-body-box work-separator"></div>
+              <div className="work-details work-separator">
+                <div className="work-title">Web Developer Intern</div>
+                <div className="work-company">ZUCA Solutions Ltd.</div>
+                <div className="work-period">
+                  September/2018 - December/2018
+                </div>
+                <div className="work-period">Achievements/Tasks</div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">
+                  Develop websites and web applications for clients contracted
+                  to the company using PHP Laravel framework and CodeIgniter.
+                </div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">
+                  Graphic designing brands and logos for clients using GNU Image
+                  Manipulation Program (GIMP), Adobe Photoshop and Adobe
+                  Illustrator.
+                </div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">
+                  Preparation of demo systems for prospective clients using
+                  bootstrap templates, materialize templates and a variety of
+                  Content Management Systems such as WordPress and Joomla.
+                </div>
+                <div className="bullet">
+                  <i className="fa fa-circle" aria-hidden="true"></i>
+                </div>
+                <div className="work-tasks">
+                  Troubleshooting, configuring and maintaining computer hardware
+                  and software for clients.
+                </div>
+              </div>
+              <div className="clear"></div>
             </div>
             <div className="cv-body-right"></div>
           </div>

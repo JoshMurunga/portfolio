@@ -269,6 +269,7 @@ a:hover {
 .work-details {
   float: left;
   padding-left: 22.5px;
+  padding-right: 27px;
 }
 
 .work-title {
@@ -289,4 +290,25 @@ a:hover {
   text-align: left;
   font-size: 13.5px;
   font-style: italic;
+}
+
+.work-tasks {
+  margin-bottom: 6px;
+  padding-left: 13.5px;
+  text-align: left;
+  font-size: 15px !important;
+  width: 360.75px;
+}
+
+.bullet {
+  color: rgb(45, 188, 173);
+  width: 6px;
+  height: 6px;
+  padding-top: 5px;
+  font-size: 8px !important;
+  float: left;
+}
+
+.work-separator {
+  margin-top: 25.5px;
 }
