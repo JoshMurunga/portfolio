@@ -173,8 +173,77 @@ class Resume extends Component {
                 </div>
               </div>
               <div className="clear"></div>
+              <div className="cv-body-left-header work-separator">
+                EDUCATION
+              </div>
+              <div className="teal-body-box"></div>
+              <div className="work-details">
+                <div className="work-title">
+                  Bachelor of Science in Computer Science
+                </div>
+                <div className="work-company">Egerton University</div>
+                <div className="work-period wp">
+                  September/2014 - September/2018
+                </div>
+                <div className="work-period">Njoro, Kenya</div>
+              </div>
             </div>
-            <div className="cv-body-right"></div>
+            <div className="cv-body-right">
+              <div className="cv-body-right-header">TECHNICAL SKILLS</div>
+              <div className="skills">
+                <div className="skillbox">PHP Development</div>
+                <div className="skillbox">Laravel Framework</div>
+                <div className="skillbox">Java</div>
+                <div className="skillbox">Java EE, Servlet API, JSP</div>
+                <div className="skillbox">Springboot Framework</div>
+                <div className="skillbox">Python</div>
+                <div className="skillbox">Flask Framework</div>
+                <div className="skillbox">Web Services</div>
+                <div className="skillbox">Ajax</div>
+                <div className="skillbox">JSON</div>
+                <div className="skillbox">REST</div>
+                <div className="skillbox">SOAP</div>
+                <div className="skillbox">ES6</div>
+                <div className="skillbox">Npm</div>
+                <div className="skillbox">HTML, CSS3, JavaScript</div>
+                <div className="skillbox">LESS, SASS</div>
+                <div className="skillbox">ReactJS</div>
+                <div className="skillbox">Materialize</div>
+                <div className="skillbox">Bootstrap</div>
+                <div className="skillbox">JQuery</div>
+                <div className="skillbox">Wordpress</div>
+                <div className="skillbox">Database Administration</div>
+                <div className="skillbox">MySQL</div>
+                <div className="skillbox">MS SQL</div>
+                <div className="skillbox">PostgreSQL</div>
+                <div className="skillbox">OAuth</div>
+                <div className="skillbox">Git</div>
+                <div className="skillbox">Linux</div>
+                <div className="skillbox">Unit Test</div>
+                <div className="skillbox">Test Driven Development</div>
+              </div>
+              <div className="clear"></div>
+              <div className="cv-body-right-header work-separator">
+                SOFT SKILLS
+              </div>
+              <div className="text-box">
+                Excellent communication skills, both oral and written.
+              </div>
+              <div className="text-box">Attention to detail.</div>
+              <div className="text-box">
+                Fast learner with ability to comprehend and troubleshoot complex
+                systems.
+              </div>
+              <div className="text-box">
+                Good organization and time management.
+              </div>
+              <div className="cv-body-right-header work-separator">
+                ACHIEVEMENTS
+              </div>
+              <div className="cv-body-right-header work-separator">
+                INTERESTS
+              </div>
+            </div>
           </div>
         </center>
       </div>

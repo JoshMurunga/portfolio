@@ -277,6 +277,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 3px;
   text-align: left;
+  width: 360.75px;
 }
 
 .work-company {
@@ -311,4 +312,45 @@ a:hover {
 
 .work-separator {
   margin-top: 25.5px;
+}
+
+.wp {
+  width: 285px;
+  float: left;
+}
+
+.cv-body-right-header {
+  margin-bottom: 6px;
+  padding-left: 27px;
+  padding-right: 37.5px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 21px;
+}
+
+.skills {
+  padding-left: 27px;
+  padding-right: 19px;
+  float: left;
+}
+
+.skillbox {
+  margin-bottom: 10.5px !important;
+  margin-right: 7.5px;
+  padding-bottom: 4.5px;
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+  padding-top: 4.5px;
+  text-align: center;
+  border-radius: 4.5px;
+  background-color: #2dbcad;
+  color: #fff;
+  float: left;
+}
+
+.text-box {
+  text-align: left;
+  padding-bottom: 1px;
+  font-size: 16.5px;
+  padding-left: 27px;
 }
