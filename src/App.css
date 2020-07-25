@@ -354,3 +354,24 @@ a:hover {
   font-size: 16.5px;
   padding-left: 27px;
 }
+
+.cv-download {
+  float: right;
+  margin-right: 25px;
+  margin-top: -50px;
+}
+
+.interestbox {
+  margin-bottom: 10.5px !important;
+  margin-right: 7.5px;
+  padding-bottom: 4.5px;
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+  padding-top: 4.5px;
+  text-align: center;
+  border-radius: 4.5px;
+  border-style: solid;
+  border-color: rgb(178, 178, 178);
+  border-width: 1px;
+  float: left;
+}

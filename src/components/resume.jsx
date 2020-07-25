@@ -4,6 +4,13 @@ class Resume extends Component {
   render() {
     return (
       <div className="componentStyle">
+        <a
+          href="./Joshua's Resume.pdf"
+          className="btn btn-success cv-download"
+          download
+        >
+          Download <i className="fa fa-download" aria-hidden="true"></i>
+        </a>
         <div className="resumeStyle">My Résumé</div>
         <center>
           <div className="cvStyle">
@@ -113,24 +120,37 @@ class Resume extends Component {
               <div className="work-details">
                 <div className="work-title">HMIS Developer</div>
                 <div className="work-company">Liverpool VCT Health</div>
-                <div className="work-period">September/2019 -</div>
+                <div className="work-period">September/2019 - Present</div>
                 <div className="work-period">Achievements/Tasks</div>
                 <div className="bullet">
                   <i className="fa fa-circle" aria-hidden="true"></i>
                 </div>
-                <div className="work-tasks">this is the achievement</div>
+                <div className="work-tasks">
+                  Extracting, Transforming and Loading data from one HMIS system
+                  into another through concept matching and creation.
+                </div>
                 <div className="bullet">
                   <i className="fa fa-circle" aria-hidden="true"></i>
                 </div>
-                <div className="work-tasks">this is the achievement 2</div>
+                <div className="work-tasks">
+                  Facilitated the migration from one HMIS system to another
+                  through ETL Management
+                </div>
                 <div className="bullet">
                   <i className="fa fa-circle" aria-hidden="true"></i>
                 </div>
-                <div className="work-tasks">this is the achievement 3</div>
+                <div className="work-tasks">
+                  Design, develop, and implement security procedures related to
+                  data input, sharing, and viewing by HMIS participating
+                  agencies
+                </div>
                 <div className="bullet">
                   <i className="fa fa-circle" aria-hidden="true"></i>
                 </div>
-                <div className="work-tasks">this is the achievement 4</div>
+                <div className="work-tasks">
+                  Monitoring, analyzing, reporting of data and Performing data
+                  quality checks from HMIS
+                </div>
               </div>
               <div className="clear"></div>
               <div className="teal-body-box work-separator"></div>
@@ -211,7 +231,7 @@ class Resume extends Component {
                 <div className="skillbox">Materialize</div>
                 <div className="skillbox">Bootstrap</div>
                 <div className="skillbox">JQuery</div>
-                <div className="skillbox">Wordpress</div>
+                <div className="skillbox">CI/CD</div>
                 <div className="skillbox">Database Administration</div>
                 <div className="skillbox">MySQL</div>
                 <div className="skillbox">MS SQL</div>
@@ -219,8 +239,10 @@ class Resume extends Component {
                 <div className="skillbox">OAuth</div>
                 <div className="skillbox">Git</div>
                 <div className="skillbox">Linux</div>
-                <div className="skillbox">Unit Test</div>
-                <div className="skillbox">Test Driven Development</div>
+                <div className="skillbox">Vagrant</div>
+                <div className="skillbox">Heroku</div>
+                <div className="skillbox">Docker</div>
+                <div className="skillbox">Google Cloud Platform</div>
               </div>
               <div className="clear"></div>
               <div className="cv-body-right-header work-separator">
@@ -240,8 +262,29 @@ class Resume extends Component {
               <div className="cv-body-right-header work-separator">
                 ACHIEVEMENTS
               </div>
+              <div className="text-box">
+                Participated in the nationwide testing and migration exercise of
+                HMIS from IQCare to KenyaEMR.
+              </div>
+              <div className="text-box">
+                Participated in Google Developers Group Rift Valley (2016 –
+                2018), working on cyber security, progressive web apps
+                development and firebase.
+              </div>
+              <div className="text-box">
+                Organized and participated in a number of Web Community meet-ups
+                at Egerton University.
+              </div>
               <div className="cv-body-right-header work-separator">
                 INTERESTS
+              </div>
+              <div className="skills">
+                <div className="interestbox">Creative Writing</div>
+                <div className="interestbox">Poetry</div>
+                <div className="interestbox">Video Games</div>
+                <div className="interestbox">Music</div>
+                <div className="interestbox">Travelling</div>
+                <div className="interestbox">Cyber Security</div>
               </div>
             </div>
           </div>
