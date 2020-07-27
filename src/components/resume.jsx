@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Resume extends Component {
   render() {
     return (
-      <div className="componentStyle">
+      <div className="componentStyle scroll">
         <a
           href="./Joshua's Resume.pdf"
           className="btn btn-success cv-download"
@@ -67,6 +67,7 @@ class Resume extends Component {
                       href="https://joshmurunga.herokuapp.com"
                       className="cv-email"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <div className="globe-icon">
                         <svg
@@ -91,6 +92,7 @@ class Resume extends Component {
                       href="https://linkedin.com/in/joshua-murunga-55236a32/"
                       className="cv-email"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <div className="linked-icon">
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -103,6 +105,7 @@ class Resume extends Component {
                       href="https://github.com/JoshMurunga"
                       className="cv-email"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <div className="git-icon">
                         <i className="fa fa-github" aria-hidden="true"></i>

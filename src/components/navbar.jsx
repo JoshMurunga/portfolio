@@ -37,7 +37,7 @@ class Navbar extends Component {
               </NavLink>
             </li>
             <li className="nav-item px-2">
-              <NavLink className="nav-link" to="/contact">
+              <NavLink className="nav-link" to="/about">
                 <b>CONTACT ME</b>
               </NavLink>
             </li>

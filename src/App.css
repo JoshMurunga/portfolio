@@ -48,9 +48,21 @@
 }
 
 .componentStyle {
-  padding-top: 9rem;
+  padding-top: 5rem;
   background-color: #212529;
-  padding-bottom: 13rem;
+}
+
+.scroll {
+  position: fixed;
+  top: 64px; /* same height as navbar */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+body {
+  overflow: hidden;
 }
 
 .resumeStyle {
@@ -66,6 +78,7 @@
   width: 892.5px;
   height: 1310.25px;
   background-color: #fff;
+  margin-bottom: 13rem;
 }
 
 .cv-intro-info {
