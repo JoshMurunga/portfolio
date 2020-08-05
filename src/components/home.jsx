@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Home extends Component {
   state = {};
   render() {
-    return <h1>home</h1>;
+    return <h1 style={{ marginTop: "50px" }}>home</h1>;
   }
 }
 

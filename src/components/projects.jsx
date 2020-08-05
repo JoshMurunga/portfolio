@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Projects extends Component {
   state = {};
   render() {
-    return <h1>Projects</h1>;
+    return <h1 style={{ marginTop: "50px" }}>Projects</h1>;
   }
 }
 
