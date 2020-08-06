@@ -417,3 +417,46 @@ a:hover {
   top: 0;
   left: 0;
 }
+
+.contact-component {
+  padding-top: 1rem;
+}
+
+.contact-scroll {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+.contact-form {
+  width: 57%;
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+    0 15px 35px rgba(50, 50, 93, 0.08), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-me {
+  font-weight: 700;
+  font-family: "Ubuntu";
+  text-align: center;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.contact-media {
+  font-size: 44px;
+  padding: 5px 10px 8px 10px;
+}
+
+.contact-message {
+  width: 63%;
+  margin: auto;
+  font-family: "Ubuntu";
+  padding: 10px;
+}
