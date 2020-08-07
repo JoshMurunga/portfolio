@@ -2,6 +2,74 @@ import React, { Component } from "react";
 import emailjs from "emailjs-com";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    };
+  }
+
+  namechange = (e) => {
+    this.setState({ name: e.target.value });
+  };
+
+  emailChange = (e) => {
+    this.setState({ email: e.target.value });
+  };
+
+  subjectChange = (e) => {
+    this.setState({ subject: e.target.value });
+  };
+
+  messageChange = (e) => {
+    this.setState({ message: e.target.value });
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+    const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_YOUR_USER_ID;
+
+    this.sendEmail(
+      serviceId,
+      templateId,
+      {
+        message_subject: this.state.subject,
+        to_name: "Josh Murunga",
+        from_name: this.state.name,
+        from_email: this.state.email,
+        message_html: this.state.message,
+      },
+      userId
+    );
+  };
+
+  sendEmail(serviceId, templateId, variables, userId) {
+    emailjs
+      .send(serviceId, templateId, variables, userId)
+      .then((res) => {
+        console.log("Email successfully sent!");
+        this.setState({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      })
+      .catch((err) =>
+        console.error(
+          "Oh well, you failed. Here some thoughts on the error that occured:",
+          err
+        )
+      );
+  }
+
   render() {
     return (
       <div className="contact-component contact-scroll">
@@ -53,13 +121,17 @@ class Contact extends Component {
           . If you prefer, you could use the message box below. Cheers!
         </div>
         <div className="contact-form">
-          <form action="">
+          <form onSubmit={this.handleSubmit}>
             <div className="form-row">
               <div className="form-group col">
                 <input
                   type="text"
                   className="form-control"
                   placeholder="Full Name"
+                  name="name"
+                  id="name"
+                  onChange={this.namechange}
+                  value={this.state.name}
                   required
                 />
               </div>
@@ -68,6 +140,9 @@ class Contact extends Component {
                   type="email"
                   className="form-control"
                   placeholder="Email Address"
+                  name="email"
+                  onChange={this.emailChange}
+                  value={this.state.email}
                   required
                 />
               </div>
@@ -77,6 +152,9 @@ class Contact extends Component {
                 type="text"
                 className="form-control"
                 placeholder="Subject"
+                name="subject"
+                onChange={this.subjectChange}
+                value={this.state.subject}
                 required
               />
             </div>
@@ -88,6 +166,9 @@ class Contact extends Component {
                 rows="5"
                 className="form-control"
                 placeholder="Message"
+                name="message"
+                onChange={this.messageChange}
+                value={this.state.message}
                 required
               ></textarea>
             </div>
