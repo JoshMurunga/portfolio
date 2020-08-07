@@ -460,3 +460,9 @@ a:hover {
   font-family: "Ubuntu";
   padding: 10px;
 }
+
+.toasty {
+  top: 17rem !important;
+  text-align: center;
+  font-family: "Ubuntu";
+}

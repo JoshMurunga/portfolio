@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 class Contact extends Component {
   constructor(props) {
@@ -54,19 +56,16 @@ class Contact extends Component {
     emailjs
       .send(serviceId, templateId, variables, userId)
       .then((res) => {
-        console.log("Email successfully sent!");
         this.setState({
           name: "",
           email: "",
           subject: "",
           message: "",
         });
+        toast.success("Your Message Has Been Sent Successfully :)");
       })
       .catch((err) =>
-        console.error(
-          "Oh well, you failed. Here some thoughts on the error that occured:",
-          err
-        )
+        toast.error("Something Must Have Gone Wrong...Please try again")
       );
   }
 
@@ -179,6 +178,7 @@ class Contact extends Component {
               </button>
             </div>
           </form>
+          <ToastContainer className="toasty" />
         </div>
       </div>
     );
