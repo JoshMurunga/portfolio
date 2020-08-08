@@ -466,3 +466,32 @@ a:hover {
   text-align: center;
   font-family: "Ubuntu";
 }
+
+.projects-container {
+  padding: 20px 70px 20px 70px;
+}
+
+.project-box {
+  border: 1px solid #dcdee4;
+  border-radius: 6px;
+  width: 23%;
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 30px;
+}
+
+#p-box:hover {
+  border: 1px solid #414141;
+}
+
+.project-box-image {
+  height: 200px;
+}
+
+.project-box-info {
+  height: 75px;
+}
+
+.project-box-links {
+  height: 50px;
+}
