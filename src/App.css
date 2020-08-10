@@ -488,10 +488,74 @@ a:hover {
   height: 200px;
 }
 
+.project-img {
+  height: auto;
+  width: 100%;
+  border-radius: 6px;
+}
+
 .project-box-info {
   height: 75px;
 }
 
+.pb-info {
+  padding: 0px 15px 0px 15px;
+  font-weight: 700;
+  font-family: "Ubuntu";
+}
+
 .project-box-links {
   height: 50px;
+  padding: 0px 15px 0px 15px;
+  font-size: 20px;
+}
+
+.project-box-details {
+  padding: 0px 15px 0px 15px;
+  font-family: "Ubuntu";
+  font-size: 14px;
+}
+
+.pb-links-fl {
+  float: left;
+}
+
+.pb-links-fr {
+  float: right;
+}
+
+.tipper {
+  position: relative;
+  display: inline-block;
+}
+
+.tipper:hover .tippertext {
+  visibility: visible;
+}
+
+.tippertext {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.tippertext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
