@@ -560,3 +560,66 @@ a:hover {
   border-style: solid;
   border-color: black transparent transparent transparent;
 }
+
+.home-image {
+  padding-left: 64px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Comic Sans MS";
+  display: flex;
+  flex-direction: row;
+}
+
+.home-intro {
+  margin-top: auto;
+  padding-bottom: 40px;
+}
+
+.home-title {
+  font-size: 38px;
+}
+
+.home-name {
+  font-size: 28px;
+}
+
+.hn {
+  color: #029da1;
+}
+
+.tn {
+  color: #f44336;
+}
+
+.sag-icon {
+  font-size: 40px !important;
+}
+
+.home-component {
+  height: calc(100vh - 8rem);
+}
+
+.home-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px 20px 50px;
+  width: auto;
+}
+
+.hc-fl {
+  width: 57%;
+}
+
+.hc-fr {
+  width: 43%;
+  padding-top: 50px;
+}
+
+.hc-image {
+  width: 333px;
+  height: 333px;
+  border-radius: 50% !important;
+  border: 2px solid black;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+}
