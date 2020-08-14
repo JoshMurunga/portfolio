@@ -432,13 +432,23 @@ a:hover {
 }
 
 .contact-form {
-  width: 57%;
+  width: 90%;
   margin: auto;
   padding: 15px;
   margin-bottom: 32px;
   border-radius: 4px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
     0 15px 35px rgba(50, 50, 93, 0.08), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-form {
+    width: 57%;
+  }
+
+  .home-component {
+    height: calc(100vh - 8rem);
+  }
 }
 
 .contact-me {
@@ -469,13 +479,13 @@ a:hover {
 
 .projects-container {
   padding: 20px 70px 20px 70px;
-  width: 1349px;
+  width: 100%;
 }
 
 .project-box {
   border: 1px solid #dcdee4;
   border-radius: 6px;
-  width: 23%;
+  width: 278px;
   float: left;
   margin-right: 24px;
   margin-bottom: 30px;
@@ -490,13 +500,14 @@ a:hover {
 }
 
 .project-img {
-  height: auto;
+  height: 100%;
   width: 100%;
-  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .project-box-info {
-  height: 75px;
+  height: 90px;
 }
 
 .pb-info {
@@ -506,7 +517,7 @@ a:hover {
 }
 
 .project-box-links {
-  height: 50px;
+  height: 60px;
   padding: 0px 15px 0px 15px;
   font-size: 20px;
 }
@@ -570,17 +581,64 @@ a:hover {
   flex-direction: row;
 }
 
+@media only screen and (max-width: 768px) {
+  .home-image {
+    padding-left: 0;
+  }
+
+  .hc-fl {
+    flex-basis: 100%;
+  }
+
+  .hc-fr {
+    flex-basis: 100%;
+  }
+
+  .hc-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .logo {
+    width: 320px !important;
+    height: 249px !important;
+  }
+
+  .home-image {
+    display: unset;
+  }
+
+  .home-title {
+    font-size: 28px !important;
+    padding-left: 10px;
+  }
+
+  .home-name {
+    font-size: 19px !important;
+    padding-left: 10px;
+  }
+
+  .sag-icon {
+    font-size: 19px !important;
+  }
+
+  .hc-fl {
+    padding: 10px 0px 0px 0px !important;
+  }
+}
+
 .home-intro {
   margin-top: auto;
   padding-bottom: 40px;
 }
 
 .home-title {
-  font-size: 38px;
+  font-size: 3vw;
 }
 
 .home-name {
-  font-size: 28px;
+  font-size: 2.1vw;
 }
 
 .hn {
@@ -592,34 +650,51 @@ a:hover {
 }
 
 .sag-icon {
-  font-size: 40px !important;
-}
-
-.home-component {
-  height: calc(100vh - 8rem);
+  font-size: 3vw;
 }
 
 .home-content {
   background-color: #fff;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 20px 50px 20px 50px;
-  width: auto;
+  font-family: "Ubuntu";
+  padding-bottom: 1rem;
 }
 
 .hc-fl {
   width: 57%;
+  padding: 55px;
+  font-size: 16px;
 }
 
 .hc-fr {
   width: 43%;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .hc-image {
-  width: 333px;
-  height: 333px;
+  width: 62%;
+  height: auto;
   border-radius: 50% !important;
   border: 2px solid black;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.logo {
+  width: 32vw;
+  height: 51.8vh;
+}
+
+.hc-about {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }

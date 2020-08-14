@@ -22,7 +22,7 @@ class Projects extends Component {
                 className="project-img"
               />
             </div>
-            <hr />
+            <hr style={{ margin: "0px 0px 10px 0px" }} />
             <div className="project-box-info">
               <a
                 href="https://joshmurunga.herokuapp.com/"
