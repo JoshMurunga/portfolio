@@ -21,22 +21,38 @@ class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse navlinks" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item px-2">
+            <li
+              className="nav-item px-2"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <NavLink className="nav-link" to="/home">
                 <b>HOME</b>
               </NavLink>
             </li>
-            <li className="nav-item px-2">
-              <NavLink className="nav-link" to="/projects">
+            <li
+              className="nav-item px-2"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
+              <NavLink className="nav-link" to="/projects" z>
                 <b>PROJECTS</b>
               </NavLink>
             </li>
-            <li className="nav-item px-2">
+            <li
+              className="nav-item px-2"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <NavLink className="nav-link" to="/resume">
                 <b>CV</b>
               </NavLink>
             </li>
-            <li className="nav-item px-2">
+            <li
+              className="nav-item px-2"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <NavLink className="nav-link" to="/contact">
                 <b>CONTACT ME</b>
               </NavLink>

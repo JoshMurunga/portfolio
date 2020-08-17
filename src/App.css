@@ -441,13 +441,17 @@ a:hover {
     0 15px 35px rgba(50, 50, 93, 0.08), 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
   .contact-form {
     width: 57%;
   }
 
   .home-component {
     height: calc(100vh - 8rem);
+  }
+
+  .contact-message {
+    width: 63% !important;
   }
 }
 
@@ -465,7 +469,7 @@ a:hover {
 }
 
 .contact-message {
-  width: 63%;
+  width: 90%;
   margin: auto;
   font-family: "Ubuntu";
   padding: 10px;
@@ -582,10 +586,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .home-image {
-    padding-left: 0;
-  }
-
   .hc-fl {
     flex-basis: 100%;
   }
@@ -599,7 +599,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 1024px) {
   .logo {
     width: 320px !important;
     height: 249px !important;
@@ -607,6 +607,7 @@ a:hover {
 
   .home-image {
     display: unset;
+    padding-left: 0;
   }
 
   .home-title {
@@ -625,6 +626,14 @@ a:hover {
 
   .hc-fl {
     padding: 10px 0px 0px 0px !important;
+  }
+
+  .projects-container {
+    padding-left: 40px;
+  }
+
+  .home-component {
+    text-align: center;
   }
 }
 
@@ -698,3 +707,9 @@ a:hover {
   flex-basis: 100%;
   height: 0;
 }
+
+/* @media only screen and (width: 1024px) {
+  .home-component {
+    text-align: center;
+  }
+} */
