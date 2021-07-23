@@ -1,11 +1,16 @@
 import React, { Component } from "react";
+import { savePDF } from '@progress/kendo-react-pdf';
 
 class Resume extends Component {
+  printDocument = () => {
+    savePDF(this.resume, {fileName: "Joshua's Resume.pdf"})
+  }
+
   render() {
     return (
       <div className="componentStyle scroll">
         <a
-          href="./Joshua's Resume.pdf"
+          onClick={this.printDocument}
           className="btn btn-success cv-download"
           download
         >
@@ -13,7 +18,7 @@ class Resume extends Component {
         </a>
         <div className="resumeStyle">My Résumé</div>
         <center>
-          <div className="cvStyle">
+          <div className="cvStyle" ref={(r) => this.resume = r}>
             <div className="cv-intro-info">
               <div className="teal-box"></div>
               <div className="header-sec">

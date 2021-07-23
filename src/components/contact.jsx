@@ -159,7 +159,6 @@ class Contact extends Component {
             </div>
             <div className="form-group">
               <textarea
-                name=""
                 id=""
                 cols="22"
                 rows="5"
